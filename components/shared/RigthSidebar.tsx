@@ -4,32 +4,32 @@ import RenderTag from "./RenderTag";
 
 const hotQuestions = [
   {
-    _id: 1,
+    _id: "1",
     title: "How do I use express as a custom server in Nextjs",
   },
   {
-    _id: 2,
+    _id: "2",
     title: "How do I use express as a custom server in Nextjs",
   },
   {
-    _id: 3,
+    _id: "3",
     title: "How do I use express as a custom server in Nextjs",
   },
   {
-    _id: 4,
+    _id: "4",
     title: "How do I use express as a custom server in Nextjs",
   },
   {
-    _id: 5,
+    _id: "5",
     title: "How do I use express as a custom server in Nextjs",
   },
 ];
 const popularTags = [
-  { _id: 1, name: "javascript", totalQuestions: 5 },
-  { _id: 2, name: "Reactjs", totalQuestions: 5 },
-  { _id: 3, name: "Nextjs", totalQuestions: 5 },
-  { _id: 4, name: "vue", totalQuestions: 5 },
-  { _id: 5, name: "redux", totalQuestions: 10 },
+  { _id: "1", name: "javascript", totalQuestions: 5 },
+  { _id: "2", name: "Reactjs", totalQuestions: 5 },
+  { _id: "3", name: "Nextjs", totalQuestions: 5 },
+  { _id: "4", name: "vue", totalQuestions: 5 },
+  { _id: "5", name: "redux", totalQuestions: 10 },
 ];
 const RigthSidebar = () => {
   return (
