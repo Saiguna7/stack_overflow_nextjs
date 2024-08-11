@@ -23,9 +23,7 @@ const Navbar = () => {
       <GlobalSearch />
       <div className="flex-between gap-5">
         <Theme />
-        <SignedOut>
-          <SignInButton />
-        </SignedOut>
+
         <SignedIn>
           <UserButton
             afterSignOutUrl="/"
